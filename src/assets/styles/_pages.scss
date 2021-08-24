@@ -1,0 +1,65 @@
+  // youtube 페이지
+.logo{
+    width:100%;
+    text-align: center;
+}
+.logo img{
+    width:auto;
+    height:200px;
+}
+.youtube__cont {
+    background-color: #F7F0EF;
+    min-height:100vh;
+  
+    .site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    }
+    .site h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+        flex: 0 0 100%;
+        font-family: "Chosunilbo_myungjo";
+    }
+    .site .left {
+        flex: 0 0 35%;
+    }
+    .site .right {
+        font-family: "Chosunilbo_myungjo";
+        font-size: 18px;
+        flex: 0 0 60%;
+    }
+    .site .right dl {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .site .right dt {
+        flex: 0 0 20%;
+    }
+  
+    .site .right dd {
+      flex: 0 0 80%;
+      padding-bottom: 30px;
+    }
+}
+  
+.youtube__search h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "Chosunilbo_myungjo";
+}
+.youtube__list {
+    margin-bottom: 300px;
+}
+.youtube__list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        flex: 0 0 19%;
+    }
+}
