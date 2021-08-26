@@ -30,7 +30,7 @@ function Youtube(){
     },[]);
 
     return (
-        <>
+        <div id="youtube">
             <div className="youtube__cont">
                 <div className="logo">
                     <img src="/img/youtubeLogo.png"></img>
@@ -38,11 +38,15 @@ function Youtube(){
                 <YoutubeSearch onSearch={search}/>
                 <div className="introduce">
                     <p>Please enter your desired search term!</p>
-                    <p>This is what I did with the YouTube API. Enter the desired search term and a list of videos will appear.</p>
+                    <p>
+                        Use the API to search for videos matching specific search terms.
+                        topics, location, publication dates, and much more. The APIs search. list method also supports searches
+                        for playlists and channels. With the Youtube Data API, you can add a variety of Youtube features to your application. Use the API to upload videos, manage playlists and subscriptions, update channel settings, and more.
+                    </p>
                 </div>
                 <YoutubeList lists={lists} />
             </div>
-        </>
+        </div>
     );
 }
 

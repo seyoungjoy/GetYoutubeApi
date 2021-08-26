@@ -1,4 +1,8 @@
-  // youtube 페이지
+// youtube 페이지
+#youtube{
+    min-height:100vh;
+    background: linear-gradient(180deg, #F5F0EF 55.44%, #B3AFAE 100%);
+}
 .logo{
     width:100%;
     text-align: center;
@@ -8,8 +12,10 @@
     height:200px;
 }
 .youtube__cont {
-    background-color: #F7F0EF;
-    min-height:100vh;
+    font-family: 'Louis George Cafe';
+    
+    width:1200px;
+    margin:0 auto;
   
     .site {
     display: flex;
@@ -21,13 +27,13 @@
         font-size: 40px;
         padding-bottom: 20px;
         flex: 0 0 100%;
-        font-family: "Chosunilbo_myungjo";
+        font-family: 'Louis George Cafe';
     }
     .site .left {
         flex: 0 0 35%;
     }
     .site .right {
-        font-family: "Chosunilbo_myungjo";
+        font-family: 'Louis George Cafe';
         font-size: 18px;
         flex: 0 0 60%;
     }
@@ -45,12 +51,37 @@
       padding-bottom: 30px;
     }
 }
-  
-.youtube__search h2 {
-    font-size: 40px;
-    padding-bottom: 20px;
-    font-family: "Chosunilbo_myungjo";
+.introduce{
+    width:50vw;
+    p:nth-child(1){
+        font-size: 18px;
+        font-weight: bold;
+        margin:5px 0 10px;
+    }
 }
+.title{
+    width:100%;
+    padding:2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    h2{
+        margin-bottom: 8px;
+    }
+}
+
+.searchRow{
+    display: flex;
+}
+input{
+    border: 1px solid #000;
+    width:100%;
+    flex:0 0 90%;
+}
+button{
+    width:100%;
+    flex:0 0 10%;
+}
+
 .youtube__list {
     margin-bottom: 300px;
 }
@@ -60,6 +91,6 @@
     justify-content: space-between;
 
     li {
-        flex: 0 0 19%;
+        flex: 0 0 30%;
     }
 }

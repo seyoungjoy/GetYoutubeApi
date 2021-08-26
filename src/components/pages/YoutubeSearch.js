@@ -19,13 +19,15 @@ const YoutubeSearch = ({onSearch}) => {
     return (
         <div className="title">
             <h2>Video Search</h2>
-            <input
-                ref={inputRef}
-                type="search"
-                placeholder="검색하시오"
-                onKeyPress={onKeyPress}
-            />
-            <button type="submit" onClick={onClick}>검색</button>
+            <div className="searchRow">
+                <input
+                    ref={inputRef}
+                    type="search"
+                    placeholder="Search"
+                    onKeyPress={onKeyPress}
+                />
+                <button type="submit" onClick={onClick}>검색</button>
+            </div>
         </div>
     );
 };
